@@ -28,6 +28,6 @@ function getNextWeekend() {
 
   // Display the result on the webpage
   document.getElementById('next-weekend').innerHTML = 
-    `The next weekend starting on the 6th is:<br>
+    `The next 67 weekend(including this one) is:<br>
     Saturday, ${saturdayString} and Sunday, ${sundayString}.`;
 }
