@@ -21,5 +21,5 @@ function getNextWeekend() {
 
   document.getElementById('next-weekend').innerHTML = 
     `The next 67 weekend(including this one) is:<br>
-    Saturday, ${saturdayString} and Sunday, ${sundayString}.`;
+    ${saturdayString} and ${sundayString}.`;
 }
